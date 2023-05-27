@@ -1,5 +1,5 @@
 * {
-    cursor: url(img/purplecursor.cur), auto;
+    cursor: url(img/bluecur.cur), auto;
 }
 
 body {
@@ -82,6 +82,13 @@ h1{
     left: 1000px;
     z-index: -1;
 }
+#clouds1 {
+    position: fixed;
+    opacity: 60%;
+    top: -30px;
+    left: -400px;
+    z-index: -1;
+}
 #bubble {
     position: fixed;
     opacity: 30%;
@@ -89,17 +96,9 @@ h1{
     left: 0px;
     z-index: -2;
 }
-#heart1 {
-    position: absolute;
+
+.heart {
     width: 3%;
-    top: 25px;
-    left: 580px;
-}
-#heart2 {
-    position: absolute;
-    width: 3%;
-    top: 25px;
-    left: 875px;
 }
 
 .contents {
